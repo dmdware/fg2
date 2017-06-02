@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD1BD195-6D12-4F4F-9C01-197ADD2C5A88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Pathogen</RootNamespace>
+    <ProjectName>app</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\proj\libs\win\SDL2_mixer-2.0.0\include;C:\proj\libs\win\SDL2_net-2.0.0\include;C:\proj\libs\win\SDL2-2.0.3\include;C:\proj\libs\glew\include;C:\proj\libs\lpng;C:\proj\libs\;C:\proj\libs\libzip-0.11.1\lib;C:\proj\libs\jpeglib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\proj\libs\win\SDL2_mixer-2.0.0\lib;C:\proj\libs\win\SDL2_net-2.0.0\lib;C:\proj\libs\win\SDL2-2.0.3\lib;C:\proj\libs\glew\lib\Release\Win32;C:\proj\libs\GL;C:\proj\libs\zlib-1.2.5\build\Release;C:\proj\libs\libzip-0.11.1\build\lib\Release;C:\proj\libs\lpng\lib;C:\proj\libs\jpeglib;$(LibraryPath)</LibraryPath>
+    <TargetName>cmgdb</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\proj\libs\steam\public\steam;C:\proj\libs\win\SDL2_mixer-2.0.0\include;C:\proj\libs\win\SDL2_net-2.0.0\include;C:\proj\libs\win\SDL2-2.0.3\include;C:\proj\libs\glew\include;C:\proj\libs\lpng;C:\proj\libs\jpeglib;C:\proj\libs\libzip-0.11.1\lib;C:\proj\libs\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\proj\libs\steam\public\steam\lib\win32;C:\proj\libs\win\SDL2_mixer-2.0.0\lib;C:\proj\libs\win\SDL2_net-2.0.0\lib;C:\proj\libs\win\SDL2-2.0.3\lib;C:\proj\libs\glew\lib\Release\Win32;C:\proj\libs\lpng\lib;C:\proj\libs\jpeglib;C:\proj\libs\zlib-1.2.5\build\Release;C:\proj\libs\GL;C:\proj\libs\libzip-0.11.1\build\lib\Release;$(LibraryPath)</LibraryPath>
+    <TargetName>cmg</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Libs\jpeglib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Libs\jpeglib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)Debug\$(TargetFileName)" "$(SolutionDir)..\..\..\testfolder\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)Release\$(TargetFileName)" "$(SolutionDir)..\..\..\testfolder\$(TargetFileName)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\app\appmain.cpp" />
+    <ClCompile Include="..\..\source\debug.cpp" />
+    <ClCompile Include="..\..\source\gui\cursor.cpp" />
+    <ClCompile Include="..\..\source\gui\draw2d.cpp" />
+    <ClCompile Include="..\..\source\gui\font.cpp" />
+    <ClCompile Include="..\..\source\gui\gui.cpp" />
+    <ClCompile Include="..\..\source\gui\icon.cpp" />
+    <ClCompile Include="..\..\source\gui\inevent.cpp" />
+    <ClCompile Include="..\..\source\gui\keymap.cpp" />
+    <ClCompile Include="..\..\source\gui\layouts\ggui.cpp" />
+    <ClCompile Include="..\..\source\gui\layouts\gviewport.cpp" />
+    <ClCompile Include="..\..\source\gui\layouts\messbox.cpp" />
+    <ClCompile Include="..\..\source\gui\richtext.cpp" />
+    <ClCompile Include="..\..\source\gui\viewlayer.cpp" />
+    <ClCompile Include="..\..\source\gui\widget.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\barbutton.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\button.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\checkbox.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\droplist.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\editbox.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\frame.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\hscrollbar.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\image.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\insdraw.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\link.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\listbox.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\pane.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\text.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\textarea.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\textblock.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\touchlistener.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\viewportw.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\vscrollbar.cpp" />
+    <ClCompile Include="..\..\source\gui\widgets\winw.cpp" />
+    <ClCompile Include="..\..\source\language.cpp" />
+    <ClCompile Include="..\..\source\math\3dmath.cpp" />
+    <ClCompile Include="..\..\source\math\barycentric.cpp" />
+    <ClCompile Include="..\..\source\math\brush.cpp" />
+    <ClCompile Include="..\..\source\math\camera.cpp" />
+    <ClCompile Include="..\..\source\math\edge.cpp" />
+    <ClCompile Include="..\..\source\math\fixmath.cpp" />
+    <ClCompile Include="..\..\source\math\frustum.cpp" />
+    <ClCompile Include="..\..\source\math\line.cpp" />
+    <ClCompile Include="..\..\source\math\matrix.cpp" />
+    <ClCompile Include="..\..\source\math\physics.cpp" />
+    <ClCompile Include="..\..\source\math\plane2i.cpp" />
+    <ClCompile Include="..\..\source\math\plane3f.cpp" />
+    <ClCompile Include="..\..\source\math\polygon.cpp" />
+    <ClCompile Include="..\..\source\math\quaternion.cpp" />
+    <ClCompile Include="..\..\source\math\vec3f.cpp" />
+    <ClCompile Include="..\..\source\math\vec3i.cpp" />
+    <ClCompile Include="..\..\source\math\vec4f.cpp" />
+    <ClCompile Include="..\..\source\platform.cpp" />
+    <ClCompile Include="..\..\source\render\graph.cpp" />
+    <ClCompile Include="..\..\source\render\screenshot.cpp" />
+    <ClCompile Include="..\..\source\render\shader.cpp" />
+    <ClCompile Include="..\..\source\render\sprite.cpp" />
+    <ClCompile Include="..\..\source\sim\simdef.cpp" />
+    <ClCompile Include="..\..\source\sys\dirent.c" />
+    <ClCompile Include="..\..\source\sys\namegen.cpp" />
+    <ClCompile Include="..\..\source\sys\regress.cpp" />
+    <ClCompile Include="..\..\source\sys\unicode.cpp" />
+    <ClCompile Include="..\..\source\sys\utf8.cpp" />
+    <ClCompile Include="..\..\source\texture.cpp" />
+    <ClCompile Include="..\..\source\ustring.cpp" />
+    <ClCompile Include="..\..\source\utils.cpp" />
+    <ClCompile Include="..\..\source\version.cpp" />
+    <ClCompile Include="..\..\source\window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\app\appmain.h" />
+    <ClInclude Include="..\..\source\app\gres.h" />
+    <ClInclude Include="..\..\source\debug.h" />
+    <ClInclude Include="..\..\source\gui\cursor.h" />
+    <ClInclude Include="..\..\source\gui\draw2d.h" />
+    <ClInclude Include="..\..\source\gui\font.h" />
+    <ClInclude Include="..\..\source\gui\gui.h" />
+    <ClInclude Include="..\..\source\gui\icon.h" />
+    <ClInclude Include="..\..\source\gui\inevent.h" />
+    <ClInclude Include="..\..\source\gui\keymap.h" />
+    <ClInclude Include="..\..\source\gui\layouts\ggui.h" />
+    <ClInclude Include="..\..\source\gui\layouts\gviewport.h" />
+    <ClInclude Include="..\..\source\gui\layouts\messbox.h" />
+    <ClInclude Include="..\..\source\gui\richtext.h" />
+    <ClInclude Include="..\..\source\gui\viewlayer.h" />
+    <ClInclude Include="..\..\source\gui\widget.h" />
+    <ClInclude Include="..\..\source\gui\widgets\barbutton.h" />
+    <ClInclude Include="..\..\source\gui\widgets\button.h" />
+    <ClInclude Include="..\..\source\gui\widgets\checkbox.h" />
+    <ClInclude Include="..\..\source\gui\widgets\droplist.h" />
+    <ClInclude Include="..\..\source\gui\widgets\editbox.h" />
+    <ClInclude Include="..\..\source\gui\widgets\frame.h" />
+    <ClInclude Include="..\..\source\gui\widgets\hscrollbar.h" />
+    <ClInclude Include="..\..\source\gui\widgets\image.h" />
+    <ClInclude Include="..\..\source\gui\widgets\insdraw.h" />
+    <ClInclude Include="..\..\source\gui\widgets\link.h" />
+    <ClInclude Include="..\..\source\gui\widgets\listbox.h" />
+    <ClInclude Include="..\..\source\gui\widgets\pane.h" />
+    <ClInclude Include="..\..\source\gui\widgets\text.h" />
+    <ClInclude Include="..\..\source\gui\widgets\textarea.h" />
+    <ClInclude Include="..\..\source\gui\widgets\textblock.h" />
+    <ClInclude Include="..\..\source\gui\widgets\touchlistener.h" />
+    <ClInclude Include="..\..\source\gui\widgets\viewportw.h" />
+    <ClInclude Include="..\..\source\gui\widgets\vscrollbar.h" />
+    <ClInclude Include="..\..\source\gui\widgets\winw.h" />
+    <ClInclude Include="..\..\source\language.h" />
+    <ClInclude Include="..\..\source\math\3dmath.h" />
+    <ClInclude Include="..\..\source\math\barycentric.h" />
+    <ClInclude Include="..\..\source\math\brush.h" />
+    <ClInclude Include="..\..\source\math\camera.h" />
+    <ClInclude Include="..\..\source\math\edge.h" />
+    <ClInclude Include="..\..\source\math\fixmath.h" />
+    <ClInclude Include="..\..\source\math\frustum.h" />
+    <ClInclude Include="..\..\source\math\line.h" />
+    <ClInclude Include="..\..\source\math\matrix.h" />
+    <ClInclude Include="..\..\source\math\physics.h" />
+    <ClInclude Include="..\..\source\math\plane2i.h" />
+    <ClInclude Include="..\..\source\math\plane3f.h" />
+    <ClInclude Include="..\..\source\math\polygon.h" />
+    <ClInclude Include="..\..\source\math\quaternion.h" />
+    <ClInclude Include="..\..\source\math\triangle.h" />
+    <ClInclude Include="..\..\source\math\vec2c.h" />
+    <ClInclude Include="..\..\source\math\vec2f.h" />
+    <ClInclude Include="..\..\source\math\vec2i.h" />
+    <ClInclude Include="..\..\source\math\vec2s.h" />
+    <ClInclude Include="..\..\source\math\vec2uc.h" />
+    <ClInclude Include="..\..\source\math\vec3f.h" />
+    <ClInclude Include="..\..\source\math\vec3i.h" />
+    <ClInclude Include="..\..\source\math\vec4f.h" />
+    <ClInclude Include="..\..\source\platform.h" />
+    <ClInclude Include="..\..\source\render\graph.h" />
+    <ClInclude Include="..\..\source\render\screenshot.h" />
+    <ClInclude Include="..\..\source\render\shader.h" />
+    <ClInclude Include="..\..\source\render\sprite.h" />
+    <ClInclude Include="..\..\source\sim\simdef.h" />
+    <ClInclude Include="..\..\source\sys\dirent.h" />
+    <ClInclude Include="..\..\source\sys\namegen.h" />
+    <ClInclude Include="..\..\source\sys\unicode.h" />
+    <ClInclude Include="..\..\source\sys\utf8.h" />
+    <ClInclude Include="..\..\source\texture.h" />
+    <ClInclude Include="..\..\source\ustring.h" />
+    <ClInclude Include="..\..\source\utils.h" />
+    <ClInclude Include="..\..\source\version.h" />
+    <ClInclude Include="..\..\source\window.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

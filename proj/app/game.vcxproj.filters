@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{25cc1eb5-3d74-463b-b027-83ae3cd61692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\objectscript">
+      <UniqueIdentifier>{8dce2654-c3ba-4867-90b3-179e6cb91183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source">
+      <UniqueIdentifier>{4f6dda88-f3e2-48b6-8cff-43f1266fc3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\gui">
+      <UniqueIdentifier>{059ff243-1ab8-4bd4-90c9-3b3afdbc3dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\gui\widgets">
+      <UniqueIdentifier>{94bec531-a029-4a18-a958-a13d77a12db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\gui\layouts">
+      <UniqueIdentifier>{fe4632ce-a4bd-4afb-a81d-4a1aae9f1e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\math">
+      <UniqueIdentifier>{488cf6fc-eb1d-4be5-86f0-83baf2a3d4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\render">
+      <UniqueIdentifier>{a1004ff6-5c12-4759-95f9-6c9fad80ecd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\sys">
+      <UniqueIdentifier>{4b75e47e-d3e1-4818-8f65-a26ce1b69ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\app">
+      <UniqueIdentifier>{3432f6ad-a1dd-4d1f-b6ef-8ab6e6718e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\match">
+      <UniqueIdentifier>{2064764e-2850-47d2-a6d8-c7962fe1bc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\sim">
+      <UniqueIdentifier>{deb3edc3-4164-4964-8562-3ab4463719a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\gui\widgets\button.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\checkbox.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\droplist.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\editbox.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\frame.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\hscrollbar.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\image.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\insdraw.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\link.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\listbox.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\text.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\textarea.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\textblock.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\touchlistener.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\viewportw.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\vscrollbar.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\cursor.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\draw2d.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\font.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\gui.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\icon.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\inevent.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\keymap.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\richtext.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\viewlayer.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widget.cpp">
+      <Filter>Source Files\source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\3dmath.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\barycentric.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\brush.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\camera.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\edge.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\fixmath.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\frustum.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\line.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\matrix.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\physics.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\plane2i.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\plane3f.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\polygon.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\quaternion.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\vec3f.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\vec3i.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\math\vec4f.cpp">
+      <Filter>Source Files\source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\render\graph.cpp">
+      <Filter>Source Files\source\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\render\screenshot.cpp">
+      <Filter>Source Files\source\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\render\shader.cpp">
+      <Filter>Source Files\source\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sys\dirent.c">
+      <Filter>Source Files\source\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sys\namegen.cpp">
+      <Filter>Source Files\source\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sys\regress.cpp">
+      <Filter>Source Files\source\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sys\unicode.cpp">
+      <Filter>Source Files\source\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sys\utf8.cpp">
+      <Filter>Source Files\source\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\debug.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\platform.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\texture.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ustring.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\utils.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\window.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\winw.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\pane.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\version.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\language.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\barbutton.cpp">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\render\sprite.cpp">
+      <Filter>Source Files\source\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\layouts\ggui.cpp">
+      <Filter>Source Files\source\gui\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\layouts\gviewport.cpp">
+      <Filter>Source Files\source\gui\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\layouts\messbox.cpp">
+      <Filter>Source Files\source\gui\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\app\appmain.cpp">
+      <Filter>Source Files\source\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sim\simdef.cpp">
+      <Filter>Source Files\source\sim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\gui\widgets\button.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\checkbox.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\droplist.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\editbox.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\frame.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\hscrollbar.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\image.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\insdraw.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\link.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\listbox.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\text.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\textarea.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\textblock.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\touchlistener.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\viewportw.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\vscrollbar.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\cursor.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\draw2d.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\font.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\gui.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\icon.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\inevent.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\keymap.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\richtext.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\viewlayer.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widget.h">
+      <Filter>Source Files\source\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\3dmath.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\barycentric.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\brush.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\camera.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\edge.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\fixmath.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\frustum.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\line.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\matrix.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\physics.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\plane2i.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\plane3f.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\polygon.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\quaternion.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\triangle.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec2c.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec2f.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec2i.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec2s.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec2uc.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec3f.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec3i.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\math\vec4f.h">
+      <Filter>Source Files\source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\app\gres.h">
+      <Filter>Source Files\source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\render\graph.h">
+      <Filter>Source Files\source\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\render\screenshot.h">
+      <Filter>Source Files\source\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\render\shader.h">
+      <Filter>Source Files\source\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sys\dirent.h">
+      <Filter>Source Files\source\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sys\namegen.h">
+      <Filter>Source Files\source\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sys\unicode.h">
+      <Filter>Source Files\source\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sys\utf8.h">
+      <Filter>Source Files\source\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\debug.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\platform.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\texture.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ustring.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\utils.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\window.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\winw.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\pane.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\version.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\language.h">
+      <Filter>Source Files\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\widgets\barbutton.h">
+      <Filter>Source Files\source\gui\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\render\sprite.h">
+      <Filter>Source Files\source\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\layouts\ggui.h">
+      <Filter>Source Files\source\gui\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\layouts\gviewport.h">
+      <Filter>Source Files\source\gui\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gui\layouts\messbox.h">
+      <Filter>Source Files\source\gui\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\app\appmain.h">
+      <Filter>Source Files\source\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sim\simdef.h">
+      <Filter>Source Files\source\sim</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

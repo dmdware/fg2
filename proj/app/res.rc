@@ -1,0 +1,5 @@
+#include "../../source/app/gres.h"
+
+
+
+IDI_TRIGEAR ICON "plant.ico"
